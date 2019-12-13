@@ -13,6 +13,7 @@
 #include "Containers/UnrealString.h"
 #include "Engine.h"//////////////////////////////////////////////
 #include "Math/UnrealMathUtility.h"/////////////////////////////
+#include "Cubomon.h"///////////////////////////////////////////
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
@@ -188,7 +189,12 @@ void AFinalzCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAction("F", IE_Pressed, this, &AFinalzCharacter::LootBox);/////////////
 	///FIM ITEM6
 
+	////ITEM9
 
+	PlayerInputComponent->BindAction("H", IE_Pressed, this, &AFinalzCharacter::GetAllActors);/////////////
+
+
+	////FIM ITEM9
 
 
 
@@ -423,4 +429,18 @@ void AFinalzCharacter::LootBox()
 
 	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Turquoise, TEXT(""));
 
+}
+
+
+void AFinalzCharacter::GetAllActors()
+{
+	//UGameplayStatics::GetAllActorsOfClass:
+
+	TSubclassOf<ACubomon> classToFind;
+	classToFind = ACubomon::StaticClass();
+	TArray<AActor*> foundEnemies;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), classToFind, foundEnemies);
+
+
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Purple, TEXT("Enemies Found "));
 }

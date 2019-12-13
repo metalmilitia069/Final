@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Finalz_Source_Finalz_FinalzCharacter_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetAllActors) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GetAllActors(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execApplyDamage) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_dam); \
@@ -26,6 +34,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define Finalz_Source_Finalz_FinalzCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetAllActors) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GetAllActors(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execApplyDamage) \
 	{ \

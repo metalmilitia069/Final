@@ -212,5 +212,9 @@ public:
 	//	void SetHealing(bool activate);
 	////FIM //ITEM3
 
+
+	UFUNCTION()
+	void GetAllActors();
+
 };
 

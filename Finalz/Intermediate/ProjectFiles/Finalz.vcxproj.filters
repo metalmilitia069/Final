@@ -96,4 +96,14 @@
       <Filter>Source\Finalz</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Finalz\Cubomon.h">
+      <Filter>Source\Finalz</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Finalz\Cubomon.cpp">
+      <Filter>Source\Finalz</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

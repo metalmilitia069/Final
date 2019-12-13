@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeFinalzCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Finalz();
 	FINALZ_API UFunction* Z_Construct_UFunction_AFinalzCharacter_ApplyDamage();
+	FINALZ_API UFunction* Z_Construct_UFunction_AFinalzCharacter_GetAllActors();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -33,6 +34,7 @@ void EmptyLinkFunctionForGeneratedCodeFinalzCharacter() {}
 		UClass* Class = AFinalzCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ApplyDamage", &AFinalzCharacter::execApplyDamage },
+			{ "GetAllActors", &AFinalzCharacter::execGetAllActors },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -66,6 +68,29 @@ void EmptyLinkFunctionForGeneratedCodeFinalzCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFinalzCharacter_ApplyDamage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFinalzCharacter_GetAllActors_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFinalzCharacter_GetAllActors_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FinalzCharacter.h" },
+		{ "ToolTip", "UFUNCTION()\n       void SetHealing(bool activate);\n/FIM ITEM3" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFinalzCharacter_GetAllActors_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFinalzCharacter, nullptr, "GetAllActors", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFinalzCharacter_GetAllActors_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFinalzCharacter_GetAllActors_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFinalzCharacter_GetAllActors()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFinalzCharacter_GetAllActors_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -179,6 +204,7 @@ void EmptyLinkFunctionForGeneratedCodeFinalzCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFinalzCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AFinalzCharacter_ApplyDamage, "ApplyDamage" }, // 1846185378
+		{ &Z_Construct_UFunction_AFinalzCharacter_GetAllActors, "GetAllActors" }, // 1781560498
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFinalzCharacter_Statics::Class_MetaDataParams[] = {
@@ -423,7 +449,7 @@ void EmptyLinkFunctionForGeneratedCodeFinalzCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFinalzCharacter, 1215491475);
+	IMPLEMENT_CLASS(AFinalzCharacter, 2348221627);
 	template<> FINALZ_API UClass* StaticClass<AFinalzCharacter>()
 	{
 		return AFinalzCharacter::StaticClass();
