@@ -1,0 +1,92 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/DELAYLOAD:"DBGHELP.DLL"
+/LIBPATH:"C:\Leos Programs\Visual Studio 2019\VC\Tools\MSVC\14.23.28105\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x64"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+/FUNCTIONPADMIN
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\FinalzEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\Finalz.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\FinalzCharacter.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\FinalzGameMode.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\FinalzHUD.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\FinalzProjectile.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\HealKil.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\LeosPlayerController.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\LeosUserWidget.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\Pad.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\Trap.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\Finalz.init.gen.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\FinalzCharacter.gen.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\FinalzGameMode.gen.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\FinalzHUD.gen.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\FinalzProjectile.gen.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\HealKil.gen.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\LeosPlayerController.gen.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\LeosUserWidget.gen.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\Pad.gen.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\Trap.gen.cpp.obj"
+"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\Default.rc2.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
+"C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
+"C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\UMG\UE4Editor-UMG.lib"
+"C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\HeadMountedDisplay\UE4Editor-HeadMountedDisplay.lib"
+/OUT:"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Binaries\Win64\UE4Editor-Finalz-1894.dll"
+/IMPLIB:"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-1894.suppressed.lib"
+/PDB:"D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Binaries\Win64\UE4Editor-Finalz-1894.pdb"
+/ignore:4078
+/INCLUDE:IMPLEMENT_MODULE_Finalz

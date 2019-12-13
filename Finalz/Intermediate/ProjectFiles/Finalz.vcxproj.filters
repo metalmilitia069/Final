@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Finalz.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8AEECC33-62D7-4F51-80D3-857BD2908FF2}</UniqueIdentifier>
+      <UniqueIdentifier>{679B87C0-5394-4BA4-B4AE-A3F748037399}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Finalz.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E51E9155-CC7A-4BBE-A461-8667A094738C}</UniqueIdentifier>
+      <UniqueIdentifier>{A9A11A9F-F720-4CCC-880C-39B5F65C40E7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Finalz">
-      <UniqueIdentifier>{DC35E264-76BA-420B-8A9B-6220D5EDBF90}</UniqueIdentifier>
+      <UniqueIdentifier>{DE8A6488-3D89-4655-B0D9-D87E11FF74E4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Finalz\Finalz.Build.cs">
       <Filter>Source\Finalz</Filter>
@@ -65,6 +65,12 @@
     <ClInclude Include="..\..\Source\Finalz\FinalzProjectile.h">
       <Filter>Source\Finalz</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Finalz\HealKil.cpp">
+      <Filter>Source\Finalz</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Finalz\HealKil.h">
+      <Filter>Source\Finalz</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Finalz\LeosPlayerController.cpp">
       <Filter>Source\Finalz</Filter>
     </ClCompile>
@@ -77,21 +83,17 @@
     <ClInclude Include="..\..\Source\Finalz\LeosUserWidget.h">
       <Filter>Source\Finalz</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Finalz\Pad.cpp">
+      <Filter>Source\Finalz</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Finalz\Pad.h">
+      <Filter>Source\Finalz</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Finalz\Trap.cpp">
       <Filter>Source\Finalz</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Finalz\Trap.h">
       <Filter>Source\Finalz</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Finalz\HealKil.h">
-      <Filter>Source\Finalz</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Finalz\HealKil.cpp">
-      <Filter>Source\Finalz</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
