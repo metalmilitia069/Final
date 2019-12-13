@@ -24,6 +24,9 @@ ATrap::ATrap()
 	TrapShape = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("trapShape"));/////
 	TrapShape->SetupAttachment(GetRootComponent());///
 	TrapShape->SetSimulatePhysics(true); ////
+
+	damage = 10.f;
+
 	//FIM ITEM2
 
 }
@@ -56,7 +59,7 @@ void ATrap::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 	if (OtherActor != nullptr)///
 	{////
 		UE_LOG(LogTemp, Warning, TEXT("Coisou"));////
-		Cast<AFinalzCharacter>(OtherActor)->ApplyDamage(.05f);////
+		Cast<AFinalzCharacter>(OtherActor)->ApplyDamage(damage);////
 		UE_LOG(LogTemp, Warning, TEXT("Overlap begin"));////
 		/*Destroy(this);*/
 

@@ -25,7 +25,8 @@ public:
 	class UStaticMeshComponent* TrapShape;///
 	//FIM DO ITEM2
 
-
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "PlayerStats")///
+	int damage;
 
 protected:
 	// Called when the game starts or when spawned

@@ -1065,3 +1065,1050 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.13-03.19.42:880][696]BlueprintLog: New page: Compile BP_Trap
 [2019.12.13-03.19.43:561][696]LogUObjectHash: Compacting FUObjectHashTables data took  11.32ms
 [2019.12.13-03.19.50:734][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.19.58:005][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.22.23:327][983]BlueprintLog: New page: Compile BP_Trap
+[2019.12.13-03.22.23:891][983]LogUObjectHash: Compacting FUObjectHashTables data took  10.73ms
+[2019.12.13-03.22.24:720][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/-Leos/02-trap/BP_Trap" FILE="D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Content/-Leos/02-trap/BP_Trap.uasset" SILENT=true
+[2019.12.13-03.22.24:756][ 30]LogSavePackage: Moving 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Saved/BP_TrapA1A4EE434D1CB5ACB4C8B29A4AA5BEB2.tmp' to 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Content/-Leos/02-trap/BP_Trap.uasset'
+[2019.12.13-03.22.27:552][181]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.22.27:602][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.22.27:602][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.22.27:603][181]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:22:27 PM)
+[2019.12.13-03.22.27:603][181]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.22.27:624][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020908s)
+[2019.12.13-03.22.27:625][181]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.22.27:625][181]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2019.12.13-03.22.27:625][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022445s)
+[2019.12.13-03.22.27:726][181]LogUObjectHash: Compacting FUObjectHashTables data took   7.96ms
+[2019.12.13-03.22.27:767][181]LogInit: XAudio2 using 'Alto-falantes (Echo-R89 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-03.22.27:790][181]LogInit: FAudioDevice initialized.
+[2019.12.13-03.22.27:821][181]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.22.27:824][181]PIE: Warning: Invalid Simulate Options: Body (BP_Trap_2.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.22.27:825][181]PIE: Warning: Invalid Simulate Options: Body (BP_Trap_2.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.22.27:826][181]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.22.27
+[2019.12.13-03.22.27:826][181]LogWorld: Bringing up level for play took: 0.004028
+[2019.12.13-03.22.27:841][181]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.117
+[2019.12.13-03.22.27:841][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.22.36:404][642]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.22.36:404][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.22.36:443][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.22.36:443][642]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.22.36:529][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.22.36:538][642]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2019.12.13-03.22.36:557][642]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-03.22.36:624][643]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.12.13-03.22.43:389][ 39]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-03.22.43:394][ 39]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-03.22.45:117][134]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.22.45:169][134]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.22.45:169][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.22.45:169][134]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:22:45 PM)
+[2019.12.13-03.22.45:170][134]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.22.45:188][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019185s)
+[2019.12.13-03.22.45:189][134]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.22.45:189][134]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2019.12.13-03.22.45:190][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020466s)
+[2019.12.13-03.22.45:275][134]LogUObjectHash: Compacting FUObjectHashTables data took   5.89ms
+[2019.12.13-03.22.45:299][134]LogInit: XAudio2 using 'Alto-falantes (Echo-R89 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-03.22.45:318][134]LogInit: FAudioDevice initialized.
+[2019.12.13-03.22.45:353][134]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.22.45:356][134]PIE: Warning: Invalid Simulate Options: Body (BP_Trap_2.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.22.45:356][134]PIE: Warning: Invalid Simulate Options: Body (BP_Trap_2.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.22.45:357][134]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.22.45
+[2019.12.13-03.22.45:358][134]LogWorld: Bringing up level for play took: 0.003882
+[2019.12.13-03.22.45:375][134]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.584
+[2019.12.13-03.22.45:375][134]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.22.47:941][285]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.22.47:941][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.22.47:981][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.22.47:982][285]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.22.48:062][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.22.48:071][285]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2019.12.13-03.22.48:139][286]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.12.13-03.22.50:376][413]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-03.22.50:386][413]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-03.23.08:963][495]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-03.23.23:380][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.23.32:497][886]BlueprintLog: New page: Compile BP_Trap
+[2019.12.13-03.23.32:975][886]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2019.12.13-03.23.35:807][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.23.35:851][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.23.35:851][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.23.35:851][ 44]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:23:35 PM)
+[2019.12.13-03.23.35:851][ 44]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.23.35:866][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014915s)
+[2019.12.13-03.23.35:867][ 44]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.23.35:867][ 44]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2019.12.13-03.23.35:868][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016435s)
+[2019.12.13-03.23.35:956][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   9.66ms
+[2019.12.13-03.23.35:987][ 44]LogInit: XAudio2 using 'Alto-falantes (Echo-R89 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-03.23.36:003][ 44]LogInit: FAudioDevice initialized.
+[2019.12.13-03.23.36:033][ 44]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.23.36:036][ 44]PIE: Warning: Invalid Simulate Options: Body (BP_Trap_2.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.23.36:036][ 44]PIE: Warning: Invalid Simulate Options: Body (BP_Trap_2.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.23.36:037][ 44]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.23.36
+[2019.12.13-03.23.36:037][ 44]LogWorld: Bringing up level for play took: 0.003486
+[2019.12.13-03.23.36:051][ 44]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.093
+[2019.12.13-03.23.36:051][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.23.42:649][439]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.23.42:650][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.23.42:684][439]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.23.42:684][439]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.23.42:757][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.23.42:765][439]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2019.12.13-03.23.42:835][440]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.12.13-03.23.46:114][632]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-03.23.46:122][632]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-03.23.59:564][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.24.18:350][524]BlueprintLog: New page: Compile BP_Trap
+[2019.12.13-03.24.18:882][524]LogUObjectHash: Compacting FUObjectHashTables data took   8.05ms
+[2019.12.13-03.24.20:602][623]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.24.20:653][623]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.20:653][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.24.20:653][623]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:24:20 PM)
+[2019.12.13-03.24.20:653][623]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.24.20:669][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016086s)
+[2019.12.13-03.24.20:670][623]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.24.20:671][623]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2019.12.13-03.24.20:671][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017774s)
+[2019.12.13-03.24.20:744][623]LogUObjectHash: Compacting FUObjectHashTables data took   8.02ms
+[2019.12.13-03.24.20:770][623]LogInit: XAudio2 using 'Alto-falantes (Echo-R89 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-03.24.20:785][623]LogInit: FAudioDevice initialized.
+[2019.12.13-03.24.20:816][623]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.24.20:818][623]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.24.20
+[2019.12.13-03.24.20:818][623]LogWorld: Bringing up level for play took: 0.002000
+[2019.12.13-03.24.20:831][623]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.874
+[2019.12.13-03.24.20:831][623]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.25:322][890]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.25:322][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.24.25:361][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.24.25:361][890]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.25:437][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.24.25:449][890]LogUObjectHash: Compacting FUObjectHashTables data took   7.34ms
+[2019.12.13-03.24.25:497][891]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.12.13-03.24.27:379][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-03.24.31:764][261]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.24.31:813][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.31:814][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.24.31:814][261]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:24:31 PM)
+[2019.12.13-03.24.31:814][261]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.24.31:832][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017380s)
+[2019.12.13-03.24.31:832][261]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.24.31:833][261]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2019.12.13-03.24.31:833][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018650s)
+[2019.12.13-03.24.31:920][261]LogUObjectHash: Compacting FUObjectHashTables data took   7.28ms
+[2019.12.13-03.24.31:946][261]LogInit: XAudio2 using 'Alto-falantes (Echo-R89 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-03.24.31:960][261]LogInit: FAudioDevice initialized.
+[2019.12.13-03.24.31:996][261]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.24.31:999][261]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.24.31
+[2019.12.13-03.24.31:999][261]LogWorld: Bringing up level for play took: 0.002280
+[2019.12.13-03.24.32:013][261]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.055
+[2019.12.13-03.24.32:014][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.44:144][964]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.44:144][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.24.44:197][964]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.24.44:197][964]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.44:278][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.24.44:287][964]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2019.12.13-03.24.44:312][965]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.12.13-03.24.46:166][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.24.46:300][ 79]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.24.46:326][ 79]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.46:326][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.24.46:326][ 79]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:24:46 PM)
+[2019.12.13-03.24.46:326][ 79]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.24.46:343][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016615s)
+[2019.12.13-03.24.46:344][ 79]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.24.46:344][ 79]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2019.12.13-03.24.46:344][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018203s)
+[2019.12.13-03.24.46:421][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   7.86ms
+[2019.12.13-03.24.46:452][ 79]LogInit: XAudio2 using 'Alto-falantes (Echo-R89 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-03.24.46:465][ 79]LogInit: FAudioDevice initialized.
+[2019.12.13-03.24.46:498][ 79]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.24.46:501][ 79]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.24.46
+[2019.12.13-03.24.46:501][ 79]LogWorld: Bringing up level for play took: 0.002003
+[2019.12.13-03.24.46:515][ 79]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.557
+[2019.12.13-03.24.46:515][ 79]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.49:845][276]LogTemp: Warning: Coisou
+[2019.12.13-03.24.49:846][276]LogTemp: Warning: Overlap begin
+[2019.12.13-03.24.50:573][320]LogTemp: Warning: Overlap end
+[2019.12.13-03.24.55:538][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.55:539][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.24.55:576][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.24.55:576][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.55:655][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.24.55:665][613]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2019.12.13-03.24.55:710][614]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.12.13-03.24.57:089][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.24.57:239][702]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.24.57:277][702]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.24.57:277][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.24.57:277][702]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:24:57 PM)
+[2019.12.13-03.24.57:277][702]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.24.57:289][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011756s)
+[2019.12.13-03.24.57:291][702]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.24.57:292][702]LogPlayLevel: PIE: World Init took: (0.002232s)
+[2019.12.13-03.24.57:292][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014830s)
+[2019.12.13-03.24.57:378][702]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2019.12.13-03.24.57:406][702]LogInit: XAudio2 using 'Alto-falantes (Echo-R89 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-03.24.57:421][702]LogInit: FAudioDevice initialized.
+[2019.12.13-03.24.57:450][702]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.24.57:452][702]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.24.57
+[2019.12.13-03.24.57:453][702]LogWorld: Bringing up level for play took: 0.002285
+[2019.12.13-03.24.57:467][702]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.49
+[2019.12.13-03.24.57:468][702]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.25.01:247][927]LogTemp: Warning: Coisou
+[2019.12.13-03.25.01:247][927]LogTemp: Warning: Overlap begin
+[2019.12.13-03.25.01:532][944]LogTemp: Warning: Overlap end
+[2019.12.13-03.25.07:072][276]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.25.07:072][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.25.07:113][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.25.07:113][276]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.25.07:192][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.25.07:201][276]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2019.12.13-03.25.07:243][277]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.12.13-03.25.14:119][685]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.25.15:941][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/-Leos/02-trap/BP_Trap" FILE="D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Content/-Leos/02-trap/BP_Trap.uasset" SILENT=true
+[2019.12.13-03.25.15:984][789]LogSavePackage: Moving 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Saved/BP_Trap47380BD5492DE5861147B993B09A8344.tmp' to 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Content/-Leos/02-trap/BP_Trap.uasset'
+[2019.12.13-03.25.38:765][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.25.59:432][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2019.12.13-03.25.59:949][339]LogSavePackage: Moving 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Saved/FirstPersonExampleMapBC79ACE2438F90AC5618E8AA67EAD797.tmp' to 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.12.13-03.26.01:993][339]LogSavePackage: Moving 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Saved/FirstPersonExampleMap_BuiltDataA26A485D4896CF732DC59BB25617E661.tmp' to 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.12.13-03.26.03:563][422]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2019.12.13-03.26.04:884][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.12.13-03.34.35:781][136]LogHotReload: New module detected: UE4Editor-Finalz-0006.dll
+[2019.12.13-03.34.37:146][141]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-03.34.37:225][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.12.13-03.34.37:227][141]LogBlueprintActionDatabase: Requesting refresh due to module change: Finalz (unloaded)
+[2019.12.13-03.34.37:271][141]LogClass: Could not find existing class Trap in package /Script/Finalz for HotReload, assuming new class
+[2019.12.13-03.34.37:271][141]LogClass: Function OnOverlapBegin is new.
+[2019.12.13-03.34.37:271][141]LogClass: Function OnOverlapEnd is new.
+[2019.12.13-03.34.37:289][141]LogHotReload: Re-instancing Trap after hot-reload.
+[2019.12.13-03.34.37:895][141]LogBlueprintActionDatabase: Requesting refresh due to module change: Finalz (loaded)
+[2019.12.13-03.34.37:897][141]LogContentBrowser: Native class hierarchy updated for 'Finalz' in 0.0016 seconds. Added 7 classes and 2 folders.
+[2019.12.13-03.34.37:904][141]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.12.13-03.34.38:047][141]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2019.12.13-03.34.38:047][141]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-03.34.38:066][141]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2759 classes and 670 folders.
+[2019.12.13-03.34.38:070][141]Display: HotReload took  0.9s.
+[2019.12.13-03.35.40:002][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.36.04:775][141]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.36.04:816][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.36.04:816][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.36.04:817][141]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:36:04 PM)
+[2019.12.13-03.36.04:817][141]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.36.04:837][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020140s)
+[2019.12.13-03.36.04:839][141]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.36.04:840][141]LogPlayLevel: PIE: World Init took: (0.002515s)
+[2019.12.13-03.36.04:840][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023084s)
+[2019.12.13-03.36.04:972][141]LogUObjectHash: Compacting FUObjectHashTables data took   9.61ms
+[2019.12.13-03.36.04:997][141]LogInit: XAudio2 using 'Alto-falantes (Echo-R89 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-03.36.05:015][141]LogInit: FAudioDevice initialized.
+[2019.12.13-03.36.05:028][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.36.05:062][141]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.36.05:065][141]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.36.05
+[2019.12.13-03.36.05:065][141]LogWorld: Bringing up level for play took: 0.002360
+[2019.12.13-03.36.05:081][141]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.123
+[2019.12.13-03.36.05:081][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.36.09:719][417]LogTemp: Warning: Coisou
+[2019.12.13-03.36.09:719][417]LogTemp: Warning: Overlap begin
+[2019.12.13-03.36.10:003][434]LogTemp: Warning: Overlap end
+[2019.12.13-03.36.14:054][677]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.36.14:054][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.36.14:072][677]LogSlate: Window 'Finalz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.13-03.36.14:116][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.36.14:116][677]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.36.14:215][677]LogUObjectHash: Compacting FUObjectHashTables data took   7.70ms
+[2019.12.13-03.36.14:250][678]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.12.13-03.37.01:084][213]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-03.54.11:308][ 19]LogEditorViewport: Clicking on Actor (LMB): BP_Trap_C (BP_Trap)
+[2019.12.13-03.54.37:538][555]LogEditorViewport: Clicking on Actor (LMB): BP_Trap_C (BP_Trap5)
+[2019.12.13-03.54.54:599][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.54.54:749][535]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.54.54:780][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.54.54:780][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.54.54:780][535]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:54:54 PM)
+[2019.12.13-03.54.54:780][535]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.54.54:804][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024736s)
+[2019.12.13-03.54.54:807][535]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.54.54:807][535]LogPlayLevel: PIE: World Init took: (0.002814s)
+[2019.12.13-03.54.54:808][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028473s)
+[2019.12.13-03.54.54:887][535]LogUObjectHash: Compacting FUObjectHashTables data took   7.78ms
+[2019.12.13-03.54.54:941][535]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-03.54.55:009][535]LogInit: FAudioDevice initialized.
+[2019.12.13-03.54.55:040][535]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.54.55:045][535]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.54.55
+[2019.12.13-03.54.55:045][535]LogWorld: Bringing up level for play took: 0.004376
+[2019.12.13-03.54.55:059][535]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.102
+[2019.12.13-03.54.55:060][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.11:294][506]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.11:299][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.55.11:334][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.55.11:335][506]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.11:408][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.55.11:415][506]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2019.12.13-03.55.11:450][507]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.12.13-03.55.23:278][214]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.12.13-03.55.23:392][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-03.55.25:038][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.25:038][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.55.25:038][302]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:55:25 PM)
+[2019.12.13-03.55.25:038][302]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.55.25:057][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018556s)
+[2019.12.13-03.55.25:057][302]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.55.25:058][302]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2019.12.13-03.55.25:058][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019939s)
+[2019.12.13-03.55.25:117][302]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2019.12.13-03.55.25:140][302]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-03.55.25:201][302]LogInit: FAudioDevice initialized.
+[2019.12.13-03.55.25:201][302]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-03.55.25:231][302]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.55.25:236][302]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.55.25
+[2019.12.13-03.55.25:236][302]LogWorld: Bringing up level for play took: 0.004438
+[2019.12.13-03.55.25:249][302]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.708
+[2019.12.13-03.55.25:250][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.29:921][579]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.29:921][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.55.29:961][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.55.29:961][579]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.30:019][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.55.30:027][579]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.12.13-03.55.30:060][580]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.12.13-03.55.34:286][830]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.12.13-03.55.34:357][830]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-03.55.35:734][901]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2019.12.13-03.55.36:815][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.36:815][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.55.36:815][962]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:55:36 PM)
+[2019.12.13-03.55.36:815][962]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.55.36:831][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015672s)
+[2019.12.13-03.55.36:832][962]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.55.36:832][962]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2019.12.13-03.55.36:832][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016981s)
+[2019.12.13-03.55.36:892][962]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2019.12.13-03.55.36:916][962]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-03.55.36:978][962]LogInit: FAudioDevice initialized.
+[2019.12.13-03.55.36:979][962]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-03.55.37:008][962]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.55.37:012][962]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.55.37
+[2019.12.13-03.55.37:013][962]LogWorld: Bringing up level for play took: 0.003624
+[2019.12.13-03.55.37:027][962]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.069
+[2019.12.13-03.55.37:027][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.40:379][161]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.40:379][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.55.40:414][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.55.40:414][161]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.40:501][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.55.40:508][161]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2019.12.13-03.55.40:535][162]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.12.13-03.55.42:708][290]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2019.12.13-03.55.45:384][434]Cmd: DELETE
+[2019.12.13-03.55.45:384][434]Cmd: ACTOR DELETE
+[2019.12.13-03.55.45:414][434]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2019.12.13-03.55.45:500][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.12.13-03.55.45:501][434]LogEditorActor: Deleted 1 Actors (0.094 secs)
+[2019.12.13-03.55.46:676][503]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-03.55.46:684][503]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.13-03.55.52:090][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.55.56:615][ 87]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.55.56:645][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.55.56:646][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.55.56:646][ 87]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:55:56 PM)
+[2019.12.13-03.55.56:646][ 87]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.55.56:662][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015881s)
+[2019.12.13-03.55.56:663][ 87]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.55.56:663][ 87]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2019.12.13-03.55.56:663][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017062s)
+[2019.12.13-03.55.56:730][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   6.85ms
+[2019.12.13-03.55.56:759][ 87]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-03.55.56:829][ 87]LogInit: FAudioDevice initialized.
+[2019.12.13-03.55.56:864][ 87]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.55.56:868][ 87]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.55.56
+[2019.12.13-03.55.56:869][ 87]LogWorld: Bringing up level for play took: 0.003764
+[2019.12.13-03.55.56:885][ 87]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.927
+[2019.12.13-03.55.56:885][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.56.04:167][523]LogTemp: Warning: Coisou
+[2019.12.13-03.56.04:167][523]LogTemp: Warning: Overlap begin
+[2019.12.13-03.56.04:184][524]LogTemp: Warning: Coisou
+[2019.12.13-03.56.04:184][524]LogTemp: Warning: Overlap begin
+[2019.12.13-03.56.04:400][537]LogTemp: Warning: Coisou
+[2019.12.13-03.56.04:400][537]LogTemp: Warning: Overlap begin
+[2019.12.13-03.56.04:534][545]LogTemp: Warning: Overlap end
+[2019.12.13-03.56.04:750][558]LogTemp: Warning: Overlap end
+[2019.12.13-03.56.04:784][560]LogTemp: Warning: Overlap end
+[2019.12.13-03.56.08:752][798]LogTemp: Warning: Coisou
+[2019.12.13-03.56.08:752][798]LogTemp: Warning: Overlap begin
+[2019.12.13-03.56.08:802][801]LogTemp: Warning: Coisou
+[2019.12.13-03.56.08:802][801]LogTemp: Warning: Overlap begin
+[2019.12.13-03.56.08:802][801]LogTemp: Warning: Coisou
+[2019.12.13-03.56.08:802][801]LogTemp: Warning: Overlap begin
+[2019.12.13-03.56.08:917][808]LogTemp: Warning: Coisou
+[2019.12.13-03.56.08:917][808]LogTemp: Warning: Overlap begin
+[2019.12.13-03.56.09:218][826]LogTemp: Warning: Overlap end
+[2019.12.13-03.56.09:335][833]LogTemp: Warning: Overlap end
+[2019.12.13-03.56.09:335][833]LogTemp: Warning: Overlap end
+[2019.12.13-03.56.09:385][836]LogTemp: Warning: Overlap end
+[2019.12.13-03.56.11:302][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.56.11:303][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.56.11:341][951]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.56.11:341][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.56.11:401][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.56.11:412][951]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.12.13-03.56.11:443][952]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.12.13-03.56.13:785][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.56.39:507][583]BlueprintLog: New page: Compile BP_Trap
+[2019.12.13-03.56.39:956][583]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2019.12.13-03.56.42:596][735]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.56.42:635][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.56.42:635][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.56.42:635][735]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:56:42 PM)
+[2019.12.13-03.56.42:635][735]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.56.42:652][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016563s)
+[2019.12.13-03.56.42:653][735]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.56.42:653][735]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2019.12.13-03.56.42:653][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017936s)
+[2019.12.13-03.56.42:721][735]LogUObjectHash: Compacting FUObjectHashTables data took   8.35ms
+[2019.12.13-03.56.42:747][735]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-03.56.42:817][735]LogInit: FAudioDevice initialized.
+[2019.12.13-03.56.42:847][735]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.56.42:849][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap_2.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:849][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap_2.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:850][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap2.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:850][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap2.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:850][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap3.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:850][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap3.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:850][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap4.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:850][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap4.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:851][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap5.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:851][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap5.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:851][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap6.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:851][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap6.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:851][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap7.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:851][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap7.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:851][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap8.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:852][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap8.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:852][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap9.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:852][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap9.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:852][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap10.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:852][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap10.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:852][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap11.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:852][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap11.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:852][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap12.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:852][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap12.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:852][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap13.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:853][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap13.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:853][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap14.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:853][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap14.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:853][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap15.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:853][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap15.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:853][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap16.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:853][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap16.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:853][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap17.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:853][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap17.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:853][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap18.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:854][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap18.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:854][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap19.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:854][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap19.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:854][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap20.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:854][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap20.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:854][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap21.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:854][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap21.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:855][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap22.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:855][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap22.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:855][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap23.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:855][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap23.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:855][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap24.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:855][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap24.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:855][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap25.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:855][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap25.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:855][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap26.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:855][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap26.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:855][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap27.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:856][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap27.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:856][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap28.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:856][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap28.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:856][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap29.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:856][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap29.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:856][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap30.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:856][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap30.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:857][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap31.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:857][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap31.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:857][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap32.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:857][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap32.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:857][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap33.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:857][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap33.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:857][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap34.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:857][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap34.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:857][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap35.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:857][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap35.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:858][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap36.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:858][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap36.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:858][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap37.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:858][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap37.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:858][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap38.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:858][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap38.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:858][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap39.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:858][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap39.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:858][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap40.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:858][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap40.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:859][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap41.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:859][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap41.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:859][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap42.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:859][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap42.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:859][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap43.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:859][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap43.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:859][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap44.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:859][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap44.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:859][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap45.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:859][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap45.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:860][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap46.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:860][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap46.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:860][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap47.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:860][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap47.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:860][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap48.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:860][735]PIE: Warning: Invalid Simulate Options: Body (BP_Trap48.trapTrigger) is set to simulate physics but Collision Enabled is incompatible
+[2019.12.13-03.56.42:860][735]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.56.42
+[2019.12.13-03.56.42:861][735]LogWorld: Bringing up level for play took: 0.012666
+[2019.12.13-03.56.42:876][735]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.919
+[2019.12.13-03.56.42:877][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.56.45:983][917]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.56.45:989][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.56.46:022][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.56.46:022][917]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.56.46:092][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.56.46:100][917]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2019.12.13-03.56.46:119][917]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-03.56.46:181][918]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.12.13-03.56.47:832][ 16]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-03.56.47:838][ 16]LogSlate: Window 'Message Log' being destroyed
+[2019.12.13-03.56.49:720][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.57.22:736][  4]BlueprintLog: New page: Compile BP_Trap
+[2019.12.13-03.57.23:212][  4]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2019.12.13-03.57.25:339][126]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.57.25:375][126]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.57.25:375][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.57.25:375][126]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:57:25 PM)
+[2019.12.13-03.57.25:376][126]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.57.25:391][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014974s)
+[2019.12.13-03.57.25:392][126]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.57.25:393][126]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2019.12.13-03.57.25:393][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016560s)
+[2019.12.13-03.57.25:463][126]LogUObjectHash: Compacting FUObjectHashTables data took   7.32ms
+[2019.12.13-03.57.25:487][126]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-03.57.25:552][126]LogInit: FAudioDevice initialized.
+[2019.12.13-03.57.25:585][126]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.57.25:589][126]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.57.25
+[2019.12.13-03.57.25:589][126]LogWorld: Bringing up level for play took: 0.003308
+[2019.12.13-03.57.25:605][126]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.353
+[2019.12.13-03.57.25:605][126]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.57.31:143][457]LogTemp: Warning: Coisou
+[2019.12.13-03.57.31:143][457]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.31:160][458]LogTemp: Warning: Coisou
+[2019.12.13-03.57.31:160][458]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.31:292][466]LogTemp: Warning: Coisou
+[2019.12.13-03.57.31:292][466]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.31:325][468]LogTemp: Warning: Coisou
+[2019.12.13-03.57.31:325][468]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.31:376][471]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.31:410][473]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.31:488][477]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.31:537][480]LogTemp: Warning: Coisou
+[2019.12.13-03.57.31:537][480]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.31:569][482]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.31:702][490]LogTemp: Warning: Coisou
+[2019.12.13-03.57.31:702][490]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.31:803][496]LogTemp: Warning: Coisou
+[2019.12.13-03.57.31:803][496]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.31:803][496]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.31:870][500]LogTemp: Warning: Coisou
+[2019.12.13-03.57.31:870][500]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.31:905][502]LogTemp: Warning: Coisou
+[2019.12.13-03.57.31:905][502]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.31:905][502]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.31:971][506]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.32:021][509]LogTemp: Warning: Coisou
+[2019.12.13-03.57.32:021][509]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.32:038][510]LogTemp: Warning: Coisou
+[2019.12.13-03.57.32:038][510]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.32:071][512]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.32:071][512]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.32:154][517]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.32:205][520]LogTemp: Warning: Coisou
+[2019.12.13-03.57.32:205][520]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.32:337][528]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.32:602][544]LogTemp: Warning: Coisou
+[2019.12.13-03.57.32:602][544]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.33:269][584]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.33:386][591]LogTemp: Warning: Coisou
+[2019.12.13-03.57.33:386][591]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.33:503][598]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.33:503][598]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.33:636][606]LogTemp: Warning: Coisou
+[2019.12.13-03.57.33:636][606]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.33:702][610]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.33:736][612]LogTemp: Warning: Coisou
+[2019.12.13-03.57.33:736][612]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.33:736][612]LogTemp: Warning: Coisou
+[2019.12.13-03.57.33:736][612]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.33:869][620]LogTemp: Warning: Coisou
+[2019.12.13-03.57.33:870][620]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.33:886][621]LogTemp: Warning: Coisou
+[2019.12.13-03.57.33:886][621]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.33:987][627]LogTemp: Warning: Coisou
+[2019.12.13-03.57.33:987][627]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.33:987][627]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.34:004][628]LogTemp: Warning: Coisou
+[2019.12.13-03.57.34:004][628]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.34:004][628]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.34:105][634]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.34:122][635]LogTemp: Warning: Coisou
+[2019.12.13-03.57.34:122][635]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.34:138][636]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.34:155][637]LogTemp: Warning: Coisou
+[2019.12.13-03.57.34:155][637]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.34:205][640]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.34:238][642]LogTemp: Warning: Coisou
+[2019.12.13-03.57.34:238][642]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.34:238][642]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.34:255][643]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.34:404][652]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.34:503][658]LogTemp: Warning: Coisou
+[2019.12.13-03.57.34:503][658]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.34:520][659]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.34:570][662]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.43:721][211]LogTemp: Warning: Coisou
+[2019.12.13-03.57.43:721][211]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.43:839][218]LogTemp: Warning: Coisou
+[2019.12.13-03.57.43:839][218]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.43:972][226]LogTemp: Warning: Coisou
+[2019.12.13-03.57.43:972][226]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.43:988][227]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.44:088][233]LogTemp: Warning: Coisou
+[2019.12.13-03.57.44:088][233]LogTemp: Warning: Overlap begin
+[2019.12.13-03.57.44:122][235]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.44:255][243]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.44:539][260]LogTemp: Warning: Overlap end
+[2019.12.13-03.57.47:356][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.57.47:357][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.57.47:391][429]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.57.47:391][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.57.47:454][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.57.47:463][429]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2019.12.13-03.57.47:493][430]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.12.13-03.57.49:909][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.58.01:032][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.58.15:703][ 84]BlueprintLog: New page: Compile BP_Trap
+[2019.12.13-03.58.16:172][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.12.13-03.58.19:056][248]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.58.19:098][248]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.58.19:099][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.58.19:099][248]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:58:19 PM)
+[2019.12.13-03.58.19:099][248]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.58.19:116][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016961s)
+[2019.12.13-03.58.19:117][248]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.58.19:117][248]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2019.12.13-03.58.19:117][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018507s)
+[2019.12.13-03.58.19:195][248]LogUObjectHash: Compacting FUObjectHashTables data took   7.03ms
+[2019.12.13-03.58.19:220][248]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-03.58.19:289][248]LogInit: FAudioDevice initialized.
+[2019.12.13-03.58.19:320][248]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.58.19:325][248]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.58.19
+[2019.12.13-03.58.19:325][248]LogWorld: Bringing up level for play took: 0.004521
+[2019.12.13-03.58.19:339][248]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.619
+[2019.12.13-03.58.19:340][248]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.58.24:371][548]LogTemp: Warning: Coisou
+[2019.12.13-03.58.24:371][548]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.24:422][551]LogTemp: Warning: Coisou
+[2019.12.13-03.58.24:422][551]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.24:539][558]LogTemp: Warning: Coisou
+[2019.12.13-03.58.24:539][558]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.24:556][559]LogTemp: Warning: Coisou
+[2019.12.13-03.58.24:556][559]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.24:606][562]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.24:656][565]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.25:272][602]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.25:338][606]LogTemp: Warning: Coisou
+[2019.12.13-03.58.25:338][606]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.25:388][609]LogTemp: Warning: Coisou
+[2019.12.13-03.58.25:388][609]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.25:405][610]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.25:555][619]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.25:572][620]LogTemp: Warning: Coisou
+[2019.12.13-03.58.25:572][620]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.25:589][621]LogTemp: Warning: Coisou
+[2019.12.13-03.58.25:589][621]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.25:605][622]LogTemp: Warning: Coisou
+[2019.12.13-03.58.25:605][622]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.25:639][624]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.25:989][645]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.26:007][646]LogTemp: Warning: Coisou
+[2019.12.13-03.58.26:007][646]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.26:007][646]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.26:023][647]LogTemp: Warning: Coisou
+[2019.12.13-03.58.26:023][647]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.26:089][651]LogTemp: Warning: Coisou
+[2019.12.13-03.58.26:089][651]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.26:240][660]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.26:273][662]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.26:273][662]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.27:005][706]LogTemp: Warning: Coisou
+[2019.12.13-03.58.27:005][706]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.27:206][718]LogTemp: Warning: Coisou
+[2019.12.13-03.58.27:206][718]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.27:223][719]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.27:239][720]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.27:256][721]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.27:272][722]LogTemp: Warning: Coisou
+[2019.12.13-03.58.27:272][722]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.27:455][733]LogTemp: Warning: Coisou
+[2019.12.13-03.58.27:456][733]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.27:488][735]LogTemp: Warning: Coisou
+[2019.12.13-03.58.27:488][735]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.27:555][739]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.27:606][742]LogTemp: Warning: Coisou
+[2019.12.13-03.58.27:606][742]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.27:622][743]LogTemp: Warning: Coisou
+[2019.12.13-03.58.27:622][743]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.27:622][743]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.27:757][751]LogTemp: Warning: Coisou
+[2019.12.13-03.58.27:757][751]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.27:774][752]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.27:840][756]LogTemp: Warning: Coisou
+[2019.12.13-03.58.27:840][756]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.27:840][756]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.27:874][758]LogTemp: Warning: Coisou
+[2019.12.13-03.58.27:874][758]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.27:889][759]LogTemp: Warning: Coisou
+[2019.12.13-03.58.27:890][759]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.27:890][759]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.27:973][764]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.28:023][767]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.28:124][773]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.28:140][774]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.29:006][826]LogTemp: Warning: Coisou
+[2019.12.13-03.58.29:006][826]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.29:105][832]LogTemp: Warning: Coisou
+[2019.12.13-03.58.29:106][832]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.29:239][840]LogTemp: Warning: Coisou
+[2019.12.13-03.58.29:239][840]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.29:272][842]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.29:322][845]LogTemp: Warning: Coisou
+[2019.12.13-03.58.29:322][845]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.29:405][850]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.29:872][878]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.30:088][891]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.31:184][956]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.58.31:184][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.58.31:220][956]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.58.31:220][956]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.58.31:290][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.58.31:299][956]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2019.12.13-03.58.31:329][957]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.12.13-03.58.33:488][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.58.41:728][554]BlueprintLog: New page: Compile BP_Trap
+[2019.12.13-03.58.42:211][554]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2019.12.13-03.58.44:657][691]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.58.44:698][691]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.58.44:698][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.58.44:698][691]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:58:44 PM)
+[2019.12.13-03.58.44:698][691]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.58.44:713][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014657s)
+[2019.12.13-03.58.44:713][691]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.58.44:714][691]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2019.12.13-03.58.44:714][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015705s)
+[2019.12.13-03.58.44:782][691]LogUObjectHash: Compacting FUObjectHashTables data took   7.19ms
+[2019.12.13-03.58.44:808][691]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-03.58.44:877][691]LogInit: FAudioDevice initialized.
+[2019.12.13-03.58.44:910][691]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.58.44:916][691]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.58.44
+[2019.12.13-03.58.44:916][691]LogWorld: Bringing up level for play took: 0.004139
+[2019.12.13-03.58.44:930][691]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.972
+[2019.12.13-03.58.44:930][691]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.58.51:263][ 70]LogTemp: Warning: Coisou
+[2019.12.13-03.58.51:263][ 70]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.51:483][ 83]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.52:198][126]LogTemp: Warning: Coisou
+[2019.12.13-03.58.52:198][126]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.52:198][126]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.52:365][136]LogTemp: Warning: Coisou
+[2019.12.13-03.58.52:365][136]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.52:464][142]LogTemp: Warning: Coisou
+[2019.12.13-03.58.52:464][142]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.52:546][147]LogTemp: Warning: Coisou
+[2019.12.13-03.58.52:546][147]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.52:597][150]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.52:613][151]LogTemp: Warning: Coisou
+[2019.12.13-03.58.52:614][151]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.52:630][152]LogTemp: Warning: Coisou
+[2019.12.13-03.58.52:630][152]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.52:663][154]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.52:680][155]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.52:764][160]LogTemp: Warning: Coisou
+[2019.12.13-03.58.52:764][160]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.52:764][160]LogTemp: Warning: Coisou
+[2019.12.13-03.58.52:764][160]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.52:799][162]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.52:831][164]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.52:916][169]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.52:949][171]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.54:330][254]LogTemp: Warning: Coisou
+[2019.12.13-03.58.54:330][254]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.54:431][260]LogTemp: Warning: Coisou
+[2019.12.13-03.58.54:431][260]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.54:467][262]LogTemp: Warning: Coisou
+[2019.12.13-03.58.54:467][262]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.54:515][265]LogTemp: Warning: Coisou
+[2019.12.13-03.58.54:515][265]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.54:564][268]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.54:581][269]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.54:615][271]LogTemp: Warning: Coisou
+[2019.12.13-03.58.54:615][271]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.54:665][274]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.54:717][277]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.54:731][278]LogTemp: Warning: Coisou
+[2019.12.13-03.58.54:731][278]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.54:731][278]LogTemp: Warning: Coisou
+[2019.12.13-03.58.54:731][278]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.54:847][285]LogTemp: Warning: Coisou
+[2019.12.13-03.58.54:847][285]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.54:847][285]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.54:864][286]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.54:914][289]LogTemp: Warning: Coisou
+[2019.12.13-03.58.54:914][289]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.54:914][289]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.55:081][299]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.55:134][302]LogTemp: Warning: Coisou
+[2019.12.13-03.58.55:134][302]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.55:614][331]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.55:764][340]LogTemp: Warning: Coisou
+[2019.12.13-03.58.55:764][340]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.55:830][344]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.55:864][346]LogTemp: Warning: Coisou
+[2019.12.13-03.58.55:864][346]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.55:964][352]LogTemp: Warning: Coisou
+[2019.12.13-03.58.55:964][352]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.55:980][353]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.56:081][359]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.56:164][364]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.56:197][366]LogTemp: Warning: Coisou
+[2019.12.13-03.58.56:197][366]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.56:365][376]LogTemp: Warning: Coisou
+[2019.12.13-03.58.56:365][376]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.56:399][378]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.56:499][384]LogTemp: Warning: Coisou
+[2019.12.13-03.58.56:499][384]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.56:532][386]LogTemp: Warning: Coisou
+[2019.12.13-03.58.56:532][386]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.56:533][386]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.56:599][390]LogTemp: Warning: Coisou
+[2019.12.13-03.58.56:599][390]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.56:599][390]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.56:615][391]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.56:783][401]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.57:097][420]LogTemp: Warning: Coisou
+[2019.12.13-03.58.57:098][420]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.57:297][432]LogTemp: Warning: Coisou
+[2019.12.13-03.58.57:297][432]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.57:347][435]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.57:364][436]LogTemp: Warning: Coisou
+[2019.12.13-03.58.57:364][436]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.57:498][444]LogTemp: Warning: Coisou
+[2019.12.13-03.58.57:498][444]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.57:514][445]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.57:563][448]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.57:714][457]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.58:098][480]LogTemp: Warning: Coisou
+[2019.12.13-03.58.58:098][480]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.58:215][487]LogTemp: Warning: Coisou
+[2019.12.13-03.58.58:215][487]LogTemp: Warning: Overlap begin
+[2019.12.13-03.58.58:332][494]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.58:433][500]LogTemp: Warning: Overlap end
+[2019.12.13-03.58.59:882][587]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.58.59:882][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.58.59:914][587]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.58.59:914][587]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.58.59:977][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.58.59:985][587]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2019.12.13-03.59.00:023][588]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.12.13-03.59.01:117][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.59.18:188][641]BlueprintLog: New page: Compile BP_Trap
+[2019.12.13-03.59.18:669][641]LogUObjectHash: Compacting FUObjectHashTables data took   6.02ms
+[2019.12.13-03.59.19:926][714]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-03.59.19:970][714]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.59.19:970][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.59.19:970][714]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:59:19 PM)
+[2019.12.13-03.59.19:977][714]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.59.19:994][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016366s)
+[2019.12.13-03.59.19:995][714]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.59.19:995][714]LogPlayLevel: PIE: World Init took: (0.001190s)
+[2019.12.13-03.59.19:995][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017951s)
+[2019.12.13-03.59.20:059][714]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2019.12.13-03.59.20:083][714]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-03.59.20:154][714]LogInit: FAudioDevice initialized.
+[2019.12.13-03.59.20:170][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.59.20:202][714]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.59.20:207][714]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.59.20
+[2019.12.13-03.59.20:208][714]LogWorld: Bringing up level for play took: 0.005476
+[2019.12.13-03.59.20:223][714]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.265
+[2019.12.13-03.59.20:223][714]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.59.24:274][954]LogTemp: Warning: Coisou
+[2019.12.13-03.59.24:274][954]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.24:507][968]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.24:540][970]LogTemp: Warning: Coisou
+[2019.12.13-03.59.24:540][970]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.24:574][972]LogTemp: Warning: Coisou
+[2019.12.13-03.59.24:574][972]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.24:658][977]LogTemp: Warning: Coisou
+[2019.12.13-03.59.24:658][977]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.24:658][977]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.24:708][980]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.24:742][982]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.24:858][989]LogTemp: Warning: Coisou
+[2019.12.13-03.59.24:858][989]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.24:892][991]LogTemp: Warning: Coisou
+[2019.12.13-03.59.24:892][991]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.24:992][997]LogTemp: Warning: Coisou
+[2019.12.13-03.59.24:992][997]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.25:725][ 41]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.25:857][ 49]LogTemp: Warning: Coisou
+[2019.12.13-03.59.25:857][ 49]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.25:924][ 53]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.25:991][ 57]LogTemp: Warning: Coisou
+[2019.12.13-03.59.25:991][ 57]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.25:991][ 57]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.26:008][ 58]LogTemp: Warning: Coisou
+[2019.12.13-03.59.26:008][ 58]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.26:042][ 60]LogTemp: Warning: Coisou
+[2019.12.13-03.59.26:042][ 60]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.26:042][ 60]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.26:108][ 64]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.26:124][ 65]LogTemp: Warning: Coisou
+[2019.12.13-03.59.26:125][ 65]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.26:208][ 70]LogTemp: Warning: Coisou
+[2019.12.13-03.59.26:208][ 70]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.26:225][ 71]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.26:241][ 72]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.26:259][ 73]LogTemp: Warning: Coisou
+[2019.12.13-03.59.26:259][ 73]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.26:325][ 77]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.26:359][ 79]LogTemp: Warning: Coisou
+[2019.12.13-03.59.26:359][ 79]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.26:359][ 79]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.26:426][ 83]LogTemp: Warning: Coisou
+[2019.12.13-03.59.26:426][ 83]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.26:476][ 86]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.26:563][ 90]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.26:580][ 91]LogTemp: Warning: Coisou
+[2019.12.13-03.59.26:580][ 91]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.26:596][ 92]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.26:779][103]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.26:796][104]LogTemp: Warning: Coisou
+[2019.12.13-03.59.26:796][104]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.26:946][113]LogTemp: Warning: Coisou
+[2019.12.13-03.59.26:946][113]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.27:015][117]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.27:097][122]LogTemp: Warning: Coisou
+[2019.12.13-03.59.27:097][122]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.27:097][122]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.27:180][127]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.27:213][129]LogTemp: Warning: Coisou
+[2019.12.13-03.59.27:213][129]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.27:448][143]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.28:380][199]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.59.28:381][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.59.28:394][199]LogSlate: Window 'Finalz Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.13-03.59.28:434][199]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.59.28:434][199]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.59.28:519][199]LogUObjectHash: Compacting FUObjectHashTables data took   6.82ms
+[2019.12.13-03.59.28:541][200]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.12.13-03.59.33:618][491]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.12.13-03.59.33:688][491]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-03.59.35:050][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.59.35:050][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-03.59.35:050][561]PIE: New page: PIE session: FirstPersonExampleMap (Dec 12, 2019, 5:59:35 PM)
+[2019.12.13-03.59.35:051][561]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-03.59.35:066][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015484s)
+[2019.12.13-03.59.35:067][561]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-03.59.35:067][561]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2019.12.13-03.59.35:068][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016903s)
+[2019.12.13-03.59.35:130][561]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2019.12.13-03.59.35:154][561]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-03.59.35:224][561]LogInit: FAudioDevice initialized.
+[2019.12.13-03.59.35:224][561]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-03.59.35:254][561]LogLoad: Game class is 'LeosFinalzGameMode_C'
+[2019.12.13-03.59.35:258][561]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.12.12-22.59.35
+[2019.12.13-03.59.35:259][561]LogWorld: Bringing up level for play took: 0.003747
+[2019.12.13-03.59.35:275][561]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.682
+[2019.12.13-03.59.35:276][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.59.38:772][766]LogTemp: Warning: Coisou
+[2019.12.13-03.59.38:772][766]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.38:939][776]LogTemp: Warning: Coisou
+[2019.12.13-03.59.38:939][776]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.38:989][779]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.39:006][780]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.39:238][794]LogTemp: Warning: Coisou
+[2019.12.13-03.59.39:239][794]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.39:239][794]LogTemp: Warning: Coisou
+[2019.12.13-03.59.39:239][794]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.39:356][801]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.39:372][802]LogTemp: Warning: Coisou
+[2019.12.13-03.59.39:372][802]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.39:372][802]LogTemp: Warning: Coisou
+[2019.12.13-03.59.39:373][802]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.39:472][808]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.39:472][808]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.39:488][809]LogTemp: Warning: Coisou
+[2019.12.13-03.59.39:488][809]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.39:589][815]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.39:622][817]LogTemp: Warning: Coisou
+[2019.12.13-03.59.39:622][817]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.39:672][820]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.39:722][823]LogTemp: Warning: Coisou
+[2019.12.13-03.59.39:722][823]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.39:822][829]LogTemp: Warning: Coisou
+[2019.12.13-03.59.39:822][829]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.39:822][829]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.39:923][835]LogTemp: Warning: Coisou
+[2019.12.13-03.59.39:923][835]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.39:923][835]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.40:006][840]LogTemp: Warning: Coisou
+[2019.12.13-03.59.40:006][840]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.40:006][840]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.40:092][845]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.40:107][846]LogTemp: Warning: Coisou
+[2019.12.13-03.59.40:107][846]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.40:159][849]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.40:173][850]LogTemp: Warning: Coisou
+[2019.12.13-03.59.40:173][850]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.40:206][852]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.40:324][859]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.41:156][909]LogTemp: Warning: Coisou
+[2019.12.13-03.59.41:156][909]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.41:323][919]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.41:422][925]LogTemp: Warning: Coisou
+[2019.12.13-03.59.41:422][925]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.41:556][933]LogTemp: Warning: Coisou
+[2019.12.13-03.59.41:556][933]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.41:622][937]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.41:740][944]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.42:057][963]LogTemp: Warning: Coisou
+[2019.12.13-03.59.42:057][963]LogTemp: Warning: Overlap begin
+[2019.12.13-03.59.42:208][972]LogTemp: Warning: Overlap end
+[2019.12.13-03.59.44:321][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.59.44:322][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.59.44:356][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-03.59.44:356][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-03.59.44:441][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-03.59.44:448][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.12.13-03.59.44:477][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.12.13-03.59.47:995][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-03.59.48:213][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.12.13-03.59.48:856][315]LogSavePackage: Moving 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Saved/FirstPersonExampleMap038FE2ED44670F8AA375089ABD14C64A.tmp' to 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.12.13-03.59.50:242][315]LogSavePackage: Moving 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Saved/FirstPersonExampleMap_BuiltDataC97B778E4F1A8412C18711AFFD887C51.tmp' to 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.12.13-03.59.57:213][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-04.00.02:521][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2019.12.13-04.00.03:553][ 36]LogSlate: Window 'Save Content' being destroyed
+[2019.12.13-04.00.03:571][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-04.00.03:591][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/-Leos/02-trap/BP_Trap" FILE="D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Content/-Leos/02-trap/BP_Trap.uasset" SILENT=true
+[2019.12.13-04.00.03:841][ 36]LogSavePackage: Moving 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Saved/BP_Trap8C0D108840A91AFD192355B44A7E98D1.tmp' to 'D:/LaSalle/Term 05/Game Engine III/ForFinals/FinalRepo/Final/Finalz/Content/-Leos/02-trap/BP_Trap.uasset'
+[2019.12.13-04.00.04:675][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0

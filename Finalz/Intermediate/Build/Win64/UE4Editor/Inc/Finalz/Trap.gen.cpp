@@ -188,6 +188,10 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_damage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_damage;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TrapShape_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TrapShape;
@@ -214,6 +218,14 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrap_Statics::NewProp_damage_MetaData[] = {
+		{ "Category", "PlayerStats" },
+		{ "ModuleRelativePath", "Trap.h" },
+		{ "ToolTip", "FIM DO ITEM2" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATrap_Statics::NewProp_damage = { "damage", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrap, damage), METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::NewProp_damage_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::NewProp_damage_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrap_Statics::NewProp_TrapShape_MetaData[] = {
 		{ "Category", "Boom" },
 		{ "EditInline", "true" },
@@ -231,6 +243,7 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATrap_Statics::NewProp_BoxTrigger = { "BoxTrigger", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrap, BoxTrigger), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATrap_Statics::NewProp_BoxTrigger_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATrap_Statics::NewProp_BoxTrigger_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATrap_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_damage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_TrapShape,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrap_Statics::NewProp_BoxTrigger,
 	};
@@ -261,7 +274,7 @@ void EmptyLinkFunctionForGeneratedCodeTrap() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATrap, 3606458909);
+	IMPLEMENT_CLASS(ATrap, 1975890900);
 	template<> FINALZ_API UClass* StaticClass<ATrap>()
 	{
 		return ATrap::StaticClass();

@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeFinalz_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x00F6694C,
+				0x7417BD30,
 				0x7CF1EFF6,
 				METADATA_PARAMS(nullptr, 0)
 			};
