@@ -1,21 +1,20 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final).
-  Creating makefile for FinalzEditor (ini files are newer than makefile)
-  Using Python at: C:\Leos Programs\UE_4.22\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\../../Binaries\Win64
-  [WARNING] Your Python installation is not in the system PATH environment variable.
-  [WARNING] Ensure your python paths are set in GlobalConfig (DefaultEngine.ini) so the path can be corrected at runtime.
-C:\Leos Programs\UE_4.22\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\UnrealEnginePython.Build.cs : warning : Referenced directory 'C:\Leos Programs\UE_4.22\Engine\Source\UnrealEnginePython\Public' does not exist.
   Parsing headers for FinalzEditor
     Running UnrealHeaderTool "D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Finalz.uproject" "D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\FinalzEditor\Development\FinalzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FinalzEditor in 8.2564579 seconds
+  Reflection code generated for FinalzEditor in 9.136962 seconds
   Using Visual Studio 2019 14.23.28105 toolchain (C:\Leos Programs\Visual Studio 2019\VC\Tools\MSVC\14.23.28105) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] Finalz.init.gen.cpp
-    [2/6] Pad.gen.cpp
-    [3/6] Pad.cpp
-    [4/6] UE4Editor-Finalz-0018.lib
-       Creating library D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0018.lib and object D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0018.exp
-    [5/6] UE4Editor-Finalz-0018.dll
-       Creating library D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0018.suppressed.lib and object D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0018.suppressed.exp
-    [6/6] FinalzEditor.target
-  Total time in Parallel executor: 668.82 seconds
-  Total execution time: 681.45 seconds
+  Building 10 actions with 8 processes...
+    [1/10] FinalzGameMode.cpp
+    [2/10] Trap.cpp
+    [3/10] FinalzCharacter.gen.cpp
+    [4/10] HealKil.cpp
+    [5/10] LeosPlayerController.cpp
+    [6/10] Pad.cpp
+    [7/10] FinalzCharacter.cpp
+    [8/10] UE4Editor-Finalz-0020.lib
+       Creating library D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0020.lib and object D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0020.exp
+    [9/10] UE4Editor-Finalz-0020.dll
+       Creating library D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0020.suppressed.lib and object D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0020.suppressed.exp
+    [10/10] FinalzEditor.target
+  Total time in Parallel executor: 134.71 seconds
+  Total execution time: 144.84 seconds

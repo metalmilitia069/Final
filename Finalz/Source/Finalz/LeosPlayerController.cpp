@@ -10,9 +10,7 @@
 //ITEM1
 void ALeosPlayerController::BeginPlay()
 {
-	//PlayRef = (UGameplayStatics::GetPlayerController(this, 0));
-	//PlayRef = UGameplayStatics::GetPlayerCharacter(this, 0);
-	//PlayRef = 
+	
 
 	//ITEM1
 

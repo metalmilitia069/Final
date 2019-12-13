@@ -45,6 +45,8 @@ class AFinalzCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UMotionControllerComponent* L_MotionController;
 
+
+
 public:
 	AFinalzCharacter();
 
@@ -87,6 +89,14 @@ public:
 
 	//FIM ITEM 3
 
+
+	//ITEM6
+	float commonItem;
+	float rareItem;
+	float legendaryItem;
+
+	//FIM ITEM6
+
 protected:
 	virtual void BeginPlay();
 
@@ -120,6 +130,15 @@ public:
 	uint32 bUsingMotionControllers : 1;
 
 protected:
+
+
+	//ITEM6
+
+	void LootBox();////////////////////////////
+
+
+	///ITEM6
+
 	
 	/** Fires a projectile. */
 	void OnFire();

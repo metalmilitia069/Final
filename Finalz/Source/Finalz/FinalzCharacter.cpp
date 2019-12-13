@@ -11,6 +11,8 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "Containers/UnrealString.h"
+#include "Engine.h"//////////////////////////////////////////////
+#include "Math/UnrealMathUtility.h"/////////////////////////////
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
@@ -113,6 +115,15 @@ AFinalzCharacter::AFinalzCharacter()
 
 	////////////////
 	//FIM ITEM 1
+
+
+	///ITEM6
+
+	commonItem = 0.6f;
+	rareItem = 0.9f;
+	legendaryItem = 1.0f;
+
+	//FFIM ITEM6
 }
 
 void AFinalzCharacter::BeginPlay()
@@ -167,6 +178,20 @@ void AFinalzCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAxis("TurnRate", this, &AFinalzCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AFinalzCharacter::LookUpAtRate);
+
+
+
+
+	
+	
+	//ITEM6
+	PlayerInputComponent->BindAction("F", IE_Pressed, this, &AFinalzCharacter::LootBox);/////////////
+	///FIM ITEM6
+
+
+
+
+
 }
 
 void AFinalzCharacter::OnFire()
@@ -377,3 +402,25 @@ void AFinalzCharacter::Tick(float DeltaTime)
 
 }
 //FIM//ITEM3
+
+
+void AFinalzCharacter::LootBox()
+{
+	float random = FMath::FRandRange(0.f, 1.f);
+
+	if (random <= commonItem)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Turquoise, TEXT("YOU GOT A COMMON ITEM!!!!!!"));
+	}
+	else if(random > commonItem && random <= rareItem)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Purple, TEXT("YOU GOT A RARE ITEM!!!!!!"));
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Orange, TEXT("YOU GOT A LEGENDARY ITEM!!!!!!"));
+	}
+
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Turquoise, TEXT(""));
+
+}
