@@ -1,0 +1,19 @@
+D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\Definitions.Finalz.h
+D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Source\Finalz\FinalzHUD.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Inc\Finalz\FinalzHUD.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasTypes.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CanvasTypes.generated.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h

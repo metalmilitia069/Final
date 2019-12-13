@@ -1,0 +1,20 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final).
+  Parsing headers for FinalzEditor
+    Running UnrealHeaderTool "D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Finalz.uproject" "D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\FinalzEditor\Development\FinalzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FinalzEditor in 13.6423843 seconds
+  Using Visual Studio 2019 14.23.28105 toolchain (C:\Leos Programs\Visual Studio 2019\VC\Tools\MSVC\14.23.28105) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 10 actions with 8 processes...
+    [1/10] Finalz.init.gen.cpp
+    [2/10] FinalzGameMode.cpp
+    [3/10] Trap.cpp
+    [4/10] Trap.gen.cpp
+    [5/10] FinalzCharacter.gen.cpp
+    [6/10] FinalzCharacter.cpp
+    [7/10] LeosPlayerController.cpp
+    [8/10] UE4Editor-Finalz-0005.lib
+       Creating library D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0005.lib and object D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0005.exp
+    [9/10] UE4Editor-Finalz-0005.dll
+       Creating library D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0005.suppressed.lib and object D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0005.suppressed.exp
+    [10/10] FinalzEditor.target
+  Total time in Parallel executor: 588.67 seconds
+  Total execution time: 604.59 seconds

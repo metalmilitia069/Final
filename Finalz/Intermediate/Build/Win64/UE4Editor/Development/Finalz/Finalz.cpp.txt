@@ -1,0 +1,2 @@
+D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\Definitions.Finalz.h
+D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Source\Finalz\Finalz.h

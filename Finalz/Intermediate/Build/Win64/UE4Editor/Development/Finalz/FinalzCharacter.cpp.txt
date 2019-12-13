@@ -1,0 +1,43 @@
+D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\Definitions.Finalz.h
+D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Source\Finalz\FinalzCharacter.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Inc\Finalz\FinalzCharacter.generated.h
+D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Source\Finalz\FinalzProjectile.h
+D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Inc\Finalz\FinalzProjectile.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/InputSettings.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerInput.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Public\GestureRecognizer.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Public\KeyState.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerInput.generated.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\InputSettings.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayTypes.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayTypes.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\HeadMountedDisplay\Public\IIdentifiableXRDevice.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\IIdentifiableXRDevice.generated.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\HeadMountedDisplay\Public\MotionControllerComponent.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\Engine\Public\SceneViewExtension.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\HeadMountedDisplay\Public\IMotionController.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\HeadMountedDisplay\Public\LateUpdateManager.h
+C:\Leos Programs\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\MotionControllerComponent.generated.h
+C:\Leos Programs\UE_4.22\Engine\Source\Runtime\HeadMountedDisplay\Public\XRMotionControllerBase.h
