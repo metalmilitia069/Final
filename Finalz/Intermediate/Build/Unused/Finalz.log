@@ -6,16 +6,14 @@
 C:\Leos Programs\UE_4.22\Engine\Plugins\UnrealEnginePython\Source\UnrealEnginePython\UnrealEnginePython.Build.cs : warning : Referenced directory 'C:\Leos Programs\UE_4.22\Engine\Source\UnrealEnginePython\Public' does not exist.
   Parsing headers for FinalzEditor
     Running UnrealHeaderTool "D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Finalz.uproject" "D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\FinalzEditor\Development\FinalzEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FinalzEditor in 28.633798 seconds
+  Reflection code generated for FinalzEditor in 32.7835939 seconds
   Using Visual Studio 2019 14.23.28105 toolchain (C:\Leos Programs\Visual Studio 2019\VC\Tools\MSVC\14.23.28105) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] Finalz.init.gen.cpp
-    [2/6] Trap.gen.cpp
-    [3/6] Trap.cpp
-    [4/6] UE4Editor-Finalz-0006.lib
-       Creating library D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0006.lib and object D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0006.exp
-    [5/6] UE4Editor-Finalz-0006.dll
-       Creating library D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0006.suppressed.lib and object D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0006.suppressed.exp
-    [6/6] FinalzEditor.target
-  Total time in Parallel executor: 322.95 seconds
-  Total execution time: 355.90 seconds
+  Building 4 actions with 8 processes...
+    [1/4] HealKil.cpp
+    [2/4] UE4Editor-Finalz-0003.lib
+       Creating library D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0003.lib and object D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0003.exp
+    [3/4] UE4Editor-Finalz-0003.dll
+       Creating library D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0003.suppressed.lib and object D:\LaSalle\Term 05\Game Engine III\ForFinals\FinalRepo\Final\Finalz\Intermediate\Build\Win64\UE4Editor\Development\Finalz\UE4Editor-Finalz-0003.suppressed.exp
+    [4/4] FinalzEditor.target
+  Total time in Parallel executor: 333.57 seconds
+  Total execution time: 372.74 seconds

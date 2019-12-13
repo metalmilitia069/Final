@@ -10,6 +10,7 @@
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
+#include "Containers/UnrealString.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
@@ -343,3 +344,36 @@ void AFinalzCharacter::ApplyDamage(int32 dam)
 	CurrentHealthtxt = CurrentHealthtxt.SanitizeFloat(Health * 100, 2) + "%";//////
 }
 /////FIM ITEM2
+
+///ITEM3
+void AFinalzCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+
+	////ITEM3
+
+	if (IsHealing)///
+	{
+		HealingTimer = 0.f;////
+
+		HealingStop = 200.f;////
+		IsHealing = false;////
+	}////
+
+	HealingTimer++;////
+
+	if (HealingTimer <= HealingStop)///
+	{////
+		this->CurrentHealth += .1f;////
+		Health = (CurrentHealth / MaxHealth);/////
+		CurrentHealthtxt = CurrentHealthtxt.SanitizeFloat(Health * 100, 2) + "%";//////
+		HealingTimer++;/////
+	}////
+
+
+
+
+
+}
+//FIM//ITEM3

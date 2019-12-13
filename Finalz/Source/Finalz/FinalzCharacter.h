@@ -182,5 +182,16 @@ public:
 	void ApplyDamage(int32 dam);/////
 	//FIM ITEM2
 
+	///ITEM 3
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;/////
+	
+												
+	///FIM ITEM 3
+
+	//UFUNCTION()
+	//	void SetHealing(bool activate);
+	////FIM //ITEM3
+
 };
 

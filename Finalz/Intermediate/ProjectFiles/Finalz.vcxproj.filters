@@ -84,4 +84,14 @@
       <Filter>Source\Finalz</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Finalz\HealKil.h">
+      <Filter>Source\Finalz</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Finalz\HealKil.cpp">
+      <Filter>Source\Finalz</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
